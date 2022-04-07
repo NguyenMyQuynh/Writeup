@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Assignment 2.1</title>
+
+   </head>
+   <body>
+
+    <div style="padding: 5px;">
+      <form method="post" action="/action_page.php" >
+        <label for="username">Username: </label> 
+        <input type="text" name="username" id="username" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Enter the correct format as an email: characters@characters.domain" required/>
+        <br><br>
+        <label for="password">Password: </label> 
+        <input type="password" name = "password" id="password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password must contain 8 or more characters that are of at least one number, and one uppercase and lowercase letter" required/>
+        <br><br>
+        <button type="submit">Submit</button>
+      </form>
+    </div> 
+  
+   </body>
+</html>
