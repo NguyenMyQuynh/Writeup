@@ -57,7 +57,7 @@ Trong file HTML:
     
   - Stored XSS: https://portswigger.net/web-security/cross-site-scripting/stored/lab-html-context-nothing-encoded
   
-    <br> Attacker thử nhập input và inspect thì thấy `input được đưa lưu thẳng vào cơ sở dữ liệu mà không kiểm tra và sau đó render lên nếu có request truy cập trang đố`. 
+    <br> Attacker thử nhập input và inspect thì thấy `input được lưu thẳng vào cơ sở dữ liệu mà không kiểm tra và sau đó render lên nếu có request truy cập trang đó`. 
   <br> => Attacker lợi dụng lỗ hổng này để chèn đoạn javascript lưu trữ vào cơ sở dữ liệu, khi victim truy cập trang html đã bị lưu đoạn js độc hại, đoạn js đó sẽ được thực thi trên browser victim.
   
   ![image](https://user-images.githubusercontent.com/62002485/162554863-fb42d249-44cd-4c47-92fa-1c6d811fc218.png)
