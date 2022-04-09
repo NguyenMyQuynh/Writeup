@@ -94,4 +94,12 @@ Trong file HTML:
   ![image](https://user-images.githubusercontent.com/62002485/162555642-5ab40152-d364-4a33-aeff-33c5c863528f.png)
   
   ![image](https://user-images.githubusercontent.com/62002485/162555681-47a9ba06-c773-4df6-a9f2-4b12c06739df.png)
+  
+  <br>
+  
+## SQL injection:
+  
+  https://portswigger.net/web-security/sql-injection
+  https://portswigger.net/web-security/sql-injection/cheat-sheet
+  https://portswigger.net/web-security/sql-injection/examining-the-database
 
