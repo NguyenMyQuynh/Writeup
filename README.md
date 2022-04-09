@@ -73,8 +73,8 @@ Trong file HTML:
   - DOM Based XSS: https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink
   
     
-  <br> Attacker thử nhập input và inspect thì thấy `đoạn js trả về get query string url(input) và ghi thẳng vào DOM mà không kiểm tra`. 
-  <br> => Attacker lợi dụng lỗ hổng này để chèn đoạn javascript vào string query url, dụ victim nhấp vào và script được chèn vào response html và thực thi trên browser victim. 
+  <br> Attacker thử nhập input và inspect thì thấy `đoạn js trả về get query string url(input) và ghi thẳng vào DOM 1 thẻ img mà không kiểm tra`. 
+  <br> => Attacker lợi dụng lỗ hổng này để chèn đoạn javascript vào string query url(đóng thẻ img hoặc đóng attribute thẻ img sau đó chèn lệnh js), dụ victim nhấp vào thực thi script sau đó một img được chèn vào  html và thực thi trên browser victim. 
   
   ![image](https://user-images.githubusercontent.com/62002485/162555165-6529dfd9-50db-4436-ad33-4bf49d380100.png)
 
