@@ -1,6 +1,6 @@
 # WebAppSecurity
 
-<br><br>
+<br>
 
 ## HTML:
 ![image](https://user-images.githubusercontent.com/62002485/159663472-4f6927cd-1762-4e8a-a15b-368cf4b65f86.png)
@@ -25,3 +25,63 @@ Trong file HTML:
       - Dễ đọc và bảo trì
       - Cache JS để tăng tốc độ load trang
 - Thẻ <script> có thể đặt tại `<head>` hoặc `<body>`
+  
+  ![image](https://user-images.githubusercontent.com/62002485/162554498-901e7b65-677e-45c4-8853-92039bda8e56.png)
+
+  ![image](https://user-images.githubusercontent.com/62002485/162554512-61652911-ebe3-465c-8c33-6edf7c102916.png)
+  
+  ![image](https://user-images.githubusercontent.com/62002485/162554517-379aa053-76b4-44b3-a18c-e9afb5e760f9.png)
+
+  ![image](https://user-images.githubusercontent.com/62002485/162554580-91e150ec-8601-47a4-989a-b9b4d140d5fe.png)
+  
+  ![image](https://user-images.githubusercontent.com/62002485/162554589-e8d9e230-1b5f-4ee4-90a9-22e5667eeeba.png)
+
+<br>
+
+## XSS:
+  
+  https://portswigger.net/web-security/cross-site-scripting
+  
+  - Reflected XSS: https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded
+  
+  ![image](https://user-images.githubusercontent.com/62002485/162554725-0203f0bb-d359-46fd-89b6-956b7f4b4dae.png)
+
+  ![image](https://user-images.githubusercontent.com/62002485/162554740-a80dc810-ec43-49c0-bd3f-353b5d812940.png)
+  
+  ![image](https://user-images.githubusercontent.com/62002485/162554782-5aca2391-ad2e-446b-91cd-45daf6e833a3.png)
+
+  <br>
+    
+  - Stored XSS: https://portswigger.net/web-security/cross-site-scripting/stored/lab-html-context-nothing-encoded
+  
+  ![image](https://user-images.githubusercontent.com/62002485/162554863-fb42d249-44cd-4c47-92fa-1c6d811fc218.png)
+
+  ![image](https://user-images.githubusercontent.com/62002485/162554924-e4bd9684-2581-4607-85e3-a6fc3ec839be.png)
+
+  ![image](https://user-images.githubusercontent.com/62002485/162554970-a3d2ed68-6841-49b3-8764-f8744f74d329.png)
+
+  ![image](https://user-images.githubusercontent.com/62002485/162555020-2986cb87-5c78-4c89-b712-96925935c7a5.png)
+
+  <br>
+  
+  - DOM Based XSS: https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink
+  
+  ![image](https://user-images.githubusercontent.com/62002485/162555165-6529dfd9-50db-4436-ad33-4bf49d380100.png)
+
+  https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams
+  ![image](https://user-images.githubusercontent.com/62002485/162555397-e7e18fa9-f024-44a7-b988-f774935078dd.png)
+
+  ![image](https://user-images.githubusercontent.com/62002485/162555426-f7732dfc-c082-4ac3-bc32-2a8611caa732.png)
+
+  ![image](https://user-images.githubusercontent.com/62002485/162555472-c71c9b90-f089-45b4-b486-fa853b481ff1.png)
+
+  ![image](https://user-images.githubusercontent.com/62002485/162555485-710f66a7-5e50-4bd9-9e71-50747c471f81.png)
+
+  ![image](https://user-images.githubusercontent.com/62002485/162555512-30e4ad39-5250-475a-b260-0dae84005061.png) 
+  
+  ![image](https://user-images.githubusercontent.com/62002485/162555204-1a46cf90-f683-4d83-9920-b429392df282.png)
+  
+  ![image](https://user-images.githubusercontent.com/62002485/162555642-5ab40152-d364-4a33-aeff-33c5c863528f.png)
+  
+  ![image](https://user-images.githubusercontent.com/62002485/162555681-47a9ba06-c773-4df6-a9f2-4b12c06739df.png)
+
