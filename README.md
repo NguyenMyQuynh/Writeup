@@ -44,6 +44,9 @@ Trong file HTML:
   
   - Reflected XSS: https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded
   
+  <br> Attacker thử nhập input và inspect thì thấy `input được đưa thẳng vào string query url và RESPONSE html trả về mà không kiểm tra`. 
+  <br> => Attacker lợi dụng lỗ hổng này để chèn đoạn javascript vào string query url, dụ victim nhấp vào và script được chèn vào response html và thực thi trên browser victim. 
+  
   ![image](https://user-images.githubusercontent.com/62002485/162554725-0203f0bb-d359-46fd-89b6-956b7f4b4dae.png)
 
   ![image](https://user-images.githubusercontent.com/62002485/162554740-a80dc810-ec43-49c0-bd3f-353b5d812940.png)
@@ -53,6 +56,9 @@ Trong file HTML:
   <br>
     
   - Stored XSS: https://portswigger.net/web-security/cross-site-scripting/stored/lab-html-context-nothing-encoded
+  
+    <br> Attacker thử nhập input và inspect thì thấy `input được đưa lưu thẳng vào cơ sở dữ liệu mà không kiểm tra và sau đó render lên nếu có request truy cập trang đố`. 
+  <br> => Attacker lợi dụng lỗ hổng này để chèn đoạn javascript lưu trữ vào cơ sở dữ liệu, khi victim truy cập trang html đã bị lưu đoạn js độc hại, đoạn js đó sẽ được thực thi trên browser victim.
   
   ![image](https://user-images.githubusercontent.com/62002485/162554863-fb42d249-44cd-4c47-92fa-1c6d811fc218.png)
 
@@ -65,6 +71,10 @@ Trong file HTML:
   <br>
   
   - DOM Based XSS: https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink
+  
+    
+  <br> Attacker thử nhập input và inspect thì thấy `đoạn js trả về get query string url(input) và ghi thẳng vào DOM mà không kiểm tra`. 
+  <br> => Attacker lợi dụng lỗ hổng này để chèn đoạn javascript vào string query url, dụ victim nhấp vào và script được chèn vào response html và thực thi trên browser victim. 
   
   ![image](https://user-images.githubusercontent.com/62002485/162555165-6529dfd9-50db-4436-ad33-4bf49d380100.png)
 
