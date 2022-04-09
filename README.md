@@ -74,7 +74,7 @@ Trong file HTML:
   
     
   <br> Attacker thử nhập input và inspect thì thấy `response chứa đoạn js get query string url(input) và ghi chúng thẳng vào DOM trong 1 thẻ img mà không kiểm tra`. 
-  <br> => Attacker lợi dụng lỗ hổng này để chèn đoạn javascript vào(đóng thẻ img hoặc đóng attribute thẻ img sau đó chèn lệnh js), dụ victim nhấp vào url để thực thi script sau đó một img được chèn vào  html và thực thi trên browser victim. 
+  <br> => Attacker lợi dụng lỗ hổng này để chèn đoạn javascript vào(đóng thẻ img hoặc đóng attribute thẻ img sau đó chèn lệnh js), dụ victim nhấp vào url để chạy đoạn script sau đó một img được chèn vào html và lệnh js độc hại được thực thi trên browser victim. 
   
   ![image](https://user-images.githubusercontent.com/62002485/162555165-6529dfd9-50db-4436-ad33-4bf49d380100.png)
 
