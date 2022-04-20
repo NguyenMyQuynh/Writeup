@@ -12,3 +12,5 @@ https://www.w3schools.com/php/func_var_isset.asp
 https://www.w3schools.com/php/php_operators.asp
 
 https://khaidantri.net/win-ini-la-gi
+
+https://portswigger.net/web-security/file-path-traversal
