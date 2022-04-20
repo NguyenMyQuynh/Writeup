@@ -4,6 +4,10 @@ https://portswigger.net/web-security/file-path-traversal
 
 https://quantrimang.com/file-etc-passwd-la-gi-181275
 
+![image](https://user-images.githubusercontent.com/62002485/164264184-986a86c0-065b-4749-8f54-4b9a6efb0d42.png)
+
+![image](https://user-images.githubusercontent.com/62002485/164264288-c6ba7691-94ec-4ce3-b9fe-d4105d6439b4.png)
+
 https://www.w3schools.com/php/php_includes.asp
 
 https://www.w3schools.com/php/php_superglobals_get.asp
