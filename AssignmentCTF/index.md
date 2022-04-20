@@ -1,5 +1,7 @@
 # File inclusion
 
+https://portswigger.net/web-security/file-path-traversal
+
 https://quantrimang.com/file-etc-passwd-la-gi-181275
 
 https://www.w3schools.com/php/php_includes.asp
@@ -12,8 +14,6 @@ https://www.w3schools.com/php/func_var_isset.asp
 https://www.w3schools.com/php/php_operators.asp
 
 https://khaidantri.net/win-ini-la-gi
-
-https://portswigger.net/web-security/file-path-traversal
 
 Encode to URL-encoded format:
   - https://www.urlencoder.org/
