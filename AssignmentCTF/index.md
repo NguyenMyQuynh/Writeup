@@ -23,3 +23,5 @@ Encode to URL-encoded format:
 
 ![image](https://user-images.githubusercontent.com/62002485/164257616-3479092f-0657-4a09-8173-e9c5d5386cc5.png)
 
+Decode from URL-encoded format: https://www.urldecoder.org/
+
