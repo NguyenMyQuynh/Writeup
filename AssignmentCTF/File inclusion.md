@@ -29,3 +29,7 @@ Encode to URL-encoded format:
 
 Decode from URL-encoded format: https://www.urldecoder.org/
 
+https://webcoban.vn/php/cach-tao-va-chay-mot-tap-tin-php.html
+
+https://www.thegioididong.com/hoi-dap/xampp-la-gi-cach-cai-dat-va-su-dung-localhost-tren-may-1339338
+
