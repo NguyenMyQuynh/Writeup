@@ -107,6 +107,10 @@ Trong file HTML:
  ## File inclusion
 
 https://portswigger.net/web-security/file-path-traversal
+  
+ftp
+<br>xampp
+
 
 https://quantrimang.com/file-etc-passwd-la-gi-181275
 
@@ -140,7 +144,5 @@ https://webcoban.vn/php/cach-tao-va-chay-mot-tap-tin-php.html
 https://www.thegioididong.com/hoi-dap/xampp-la-gi-cach-cai-dat-va-su-dung-localhost-tren-may-1339338
 
 
-ftp
-đường dẫn thư mục gốc của web C:\xampp\htdocs\quynh
 
 
