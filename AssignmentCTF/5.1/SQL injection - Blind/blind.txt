@@ -1,0 +1,16 @@
+POST /web-serveur/ch42/ HTTP/1.1
+Host: challenge01.root-me.org
+Content-Length: 18
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://challenge01.root-me.org
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://challenge01.root-me.org/web-serveur/ch42/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=41375c26899f821b369fb7f7cf48c090; _ga=GA1.1.887632091.1648142662; _ga_SRYSKX09J7=GS1.1.1649570881.6.1.1649570943.0
+Connection: close
+
+login=q&password=q
